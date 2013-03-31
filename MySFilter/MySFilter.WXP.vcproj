@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="MySFilter.WXP"
+	ProjectGUID="{C4034C13-E1C7-4CFF-9F09-F1FE497E1738}"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="WXP free|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\MySFilter.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP free ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP free . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=0;WINVER=0x0500"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP checked|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\MySFilter.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP checked ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP checked . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0500"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP2K free|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\MySFilter.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP2K free ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP2K free . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=0;WINVER=0x0501"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="WXP2K checked|Win32"
+			IntermediateDirectory=".\"
+			ConfigurationType="0"
+			InheritedPropertySheets=".\MySFilter.vsprops"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="$(DDKBUILD_PATH) -WXP2K checked ."
+				ReBuildCommandLine="$(DDKBUILD_PATH) -WXP2K checked . -cZ"
+				CleanCommandLine=""
+				Output=""
+				PreprocessorDefinitions="DBG=1;WINVER=0x0501"
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;asm;mc"
+			>
+			<File
+				RelativePath=".\BaseFun.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\FastIO.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MajorFunction.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MySFilter.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\User.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx"
+			>
+			<File
+				RelativePath=".\BaseDef.h"
+				>
+			</File>
+			<File
+				RelativePath=".\BaseFun.h"
+				>
+			</File>
+			<File
+				RelativePath=".\FastIO.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MajorFunction.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MySFilter.h"
+				>
+			</File>
+			<File
+				RelativePath=".\User.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;mc;ico;cur;bmp;dlg;rc2"
+			>
+		</Filter>
+		<Filter
+			Name="Special Files"
+			Filter="*"
+			>
+			<File
+				RelativePath=".\makefile"
+				>
+			</File>
+			<File
+				RelativePath=".\MySFilter.vsprops"
+				>
+			</File>
+			<File
+				RelativePath=".\sources"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
